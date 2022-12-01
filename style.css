@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    header .main-box{
+        width: 100%;
+        padding: 0px 5px;
+    }
+    header .main-box .open-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100%;
+        background-color: #202023;
+        transition: all 0.2s;
+        overflow-x: hidden;
+    }
+    header .main-box .menu .close-menu{
+        display: block;
+        margin: 10px;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    header .main-box .menu ul li a{
+        font-size: 14px;
+    }
+
+    .blog-1{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog-1 h1{
+        font-size: 20px;
+        padding: 0px !important;
+        text-align: center;
+    }
+    .blog-1 p{
+        text-align: center;
+        font-size: 14px;
+        padding: 0px !important;
+    }
+    .blog-1 h2{
+        font-size: 18px;
+        padding: 0px !important;
+        text-align: center;
+        font-weight: 600;
+    }
+    .blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+        display: inline-block !important;
+    }
+    .blog-2 .col-span-2{
+        width: 33.3%;
+        float: left;
+    }
+    .blog-2 .col-span-2 .box{
+        padding: 5px !important;
+    }
+
+    .text-blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .text-blog-2 h2{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .text-blog-2 p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    header .main-box{
+        width: 100%;
+        padding: 0px 5px;
+    }
+    header .main-box .open-menu{
+        display: block;
+    }
+    header .main-box .menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 100%;
+        background-color: #202023;
+        transition: all 0.2s;
+        overflow-x: hidden;
+    }
+    header .main-box .menu .close-menu{
+        display: block;
+        margin: 10px;
+    }
+    header .main-box .menu ul li{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    header .main-box .menu ul li a{
+        font-size: 14px;
+    }
+
+    .blog-1{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog-1 h1{
+        font-size: 20px;
+        padding: 0px !important;
+    }
+    .blog-1 p{
+        font-size: 14px;
+        padding: 0px !important;
+    }
+    .blog-1 h2{
+        font-size: 18px;
+        padding: 0px !important;
+        font-weight: 600;
+    }
+    .blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+        display: inline-block !important;
+    }
+    .blog-2 .col-span-2{
+        width: 20%;
+        float: left;
+    }
+    .blog-2 .col-span-2 .box{
+        padding: 5px !important;
+    }
+
+    .text-blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .text-blog-2 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-blog-2 p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    header .main-box .menu ul li a{
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .blog-1{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .blog-1 h1{
+        font-size: 20px;
+        padding: 0px !important;
+    }
+    .blog-1 p{
+        font-size: 14px;
+        padding: 0px !important;
+    }
+    .blog-1 h2{
+        font-size: 18px;
+        padding: 0px !important;
+        font-weight: 600;
+    }
+    .blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+        display: inline-block !important;
+    }
+    .blog-2 .col-span-2{
+        width: 20%;
+        float: left;
+    }
+    .blog-2 .col-span-2 .box{
+        padding: 5px !important;
+    }
+
+    .text-blog-2{
+        width: 100%;
+        padding: 0px 5px !important;
+    }
+    .text-blog-2 h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .text-blog-2 p{
+        font-size: 14px;
+    }
+}
